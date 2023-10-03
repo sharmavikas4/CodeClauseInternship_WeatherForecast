@@ -1,0 +1,110 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.title span{
+    color: rgb(9, 185, 244);
+}
+.time{
+    color: grey;
+}
+.intro{
+    font-size: 5vh;
+}
+.LocIcon{
+    position: relative;
+    top: 0.45rem;
+    border-bottom: 2px rgb(17, 176, 230) solid;
+}
+.city{
+    border: none;
+    border-bottom: 2px rgb(17, 176, 230) solid;
+    width: 30vw;
+    margin-top: 1vw;
+    margin-right:10px;
+    outline: none;
+    font-size: medium;
+}
+.Nicon{
+    position: relative;
+    top: 0.25rem;
+    right: 0.5rem;
+}
+.next{
+    border-radius: 15px;
+    font-size: 20px;
+    border-color: #007bff;
+    border: 1px;
+    color: #fff;
+    background-color: #007bff;
+    padding: 4px 16px;
+    padding-right: 20px;
+    padding-bottom: 6px;
+}
+.search{
+    position: relative;
+    top: 0.3rem;
+}
+.weather{
+    justify-content: center;
+    margin: auto;
+    margin-top: 8rem;
+    width: 20rem;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+    color: black;
+}
+.area{
+    margin-top: 3rem;
+    margin-bottom: 0;
+
+}
+hr{
+    width: 80%;
+    opacity: 0.3;
+}
+.icon{
+    display: inline-block;
+    width: 7rem;
+    height: 7rem;
+    margin-left: -10rem;
+}
+.details{
+    display: inline-block;
+    text-align: left;
+    font-size: small;
+    position: absolute;
+    top: 4rem;
+}
+.cw{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.thermo{
+    position: relative;
+    top: 0.25rem;
+}
+.temp{
+    margin-top: 0.2rem;
+    margin-bottom: 0.05rem;
+    font-size: x-large;
+    font-weight: bolder;
+}
+.wind{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.air{
+    position: relative;
+    top:0.5rem;
+}
+.bg{
+    position: absolute;
+    margin-top: -8.5rem;
+    left: 0;
+    display: block;
+    height: 59.6vh;
+    width: 100vw;
+    z-index: -90;
+    bottom: 0;
+}
